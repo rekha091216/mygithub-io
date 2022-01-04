@@ -113,6 +113,7 @@ ul li, ol li {
   text-align: center;
   letter-spacing: 1px;
   line-height: 1;
+  margin-top: 48px;
   margin-bottom: 48px;
   padding: 0 10px;
   position: relative;
@@ -298,7 +299,7 @@ max-width: 350px !important;
 }
 
 .section-padding {
-  padding: 60px 0;
+  padding: 60px ;
 }
 
 #about .img-thumb img {
@@ -721,8 +722,16 @@ max-width: 350px !important;
 3. Hero Area
 ========================================================================== */
 .hero-area-bg {
-  background: url(../img/hero-area.jpg) no-repeat;
-  background-size: cover;
+  background: url(../img/hero-area.jpg) no-repeat !important;
+  background-size: cover !important;
+}
+
+.footer-bg{
+  background: url(../img/craftsman.jpg) no-repeat !important;
+  background-size: cover !important;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
 }
 
 #hero-area {
@@ -1145,7 +1154,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   height: 60px;
   display: block;
   background: none;
-  border-radius: 0;
+  border-radius: 2;
 }
 
 .skills .progress .skill {
